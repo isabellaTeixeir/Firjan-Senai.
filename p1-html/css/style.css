@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(223, 175, 220); /*Cor de fundo*/
+    font-family: 'Tribuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida sans', Arial, sans-serif; /*Indica a fonte*/
+    color: #333333; /*Usado para colocar a cor da fonte*/
+}
+h1{
+    text-decoration: underline; /*é a decoração*/
+    font-style: italic; /*Tipo de fonte*/
+}
+h2{
+font-family: 'Times New Roman', Times, serif;
+font-weight: bold; /*"Grossura" da fonte*/
+}
+header{
+    background-color: rgb(237, 100, 225);
+    text-align: center; /*Alinhar o texto*/
+    border-width: 2px; /*Colocar tamanho da borda*/
+    border-color: blueviolet;/*Cor da Borda*/
+}
+nav{
+    background-color: hotpink;
+    text-align: center;
+    border: solid 2px #ff00ea;
+    border-style: inset;
+    width: 100%;
+}
+/*nav ul li{
+float: left;
+}*/
+
+ul{
+    display: flex;
+flex-direction: row;
+background-color: rgb(42, 147, 165);
+}
+li{
+    /*margin:0 10px;*/
+    list-style: none;
+    width: 20%;
+    text-align: center;
+}
